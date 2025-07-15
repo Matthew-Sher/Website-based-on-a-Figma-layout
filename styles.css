@@ -48,6 +48,100 @@ header {
     padding: 0.52vw;
 }
 
+/*--------------description--------------*/
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.35vh; 
+}
+
+.description-left {
+    max-width: 33.12vw;
+    padding-top: 4.25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description-title {
+    font-family: 'Glitory';
+    font-size: 5.55vh;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 5.93vh;
+}
+
+.description-menu {
+    max-width: 19.5vw;
+    margin-top: 5.37vh;
+}
+
+.description-company, .description-product {
+    margin-bottom: 2.22vh;
+}
+
+.description-product, .description-goods{
+    margin-top: 2.22vh;
+}
+
+.description-menu-line {
+    height: 1px;
+    background: linear-gradient(to right, #4B4B4B, #26262500);
+}
+
+.description-menu-item {
+    margin-left: 0.78vw;
+}
+
+.description-menu-content > span {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.85vh;
+    line-height: 1.85vh;
+    margin-left: 0.78vw;
+}
+
+.description-menu-footer {
+    padding-bottom: 2.96vh;
+    display: flex;
+}
+
+.description-menu-footer-item {
+    width: 31px;
+    height: 2px;
+}
+
+.description-menu-footer-item:not(:first-child) {
+    margin-left: 0.92vw;
+}
+
+.description-right {
+    position: relative;
+}
+
+.description-price {
+    font-family: 'TP Sans', sans-serif;
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+    color: #ffffff;
+    position: absolute;
+    top: 28.43vh;
+    left: 6.3vw;
+}
+
+.description-tap {
+    max-height: 51.1vh;
+    display: block;
+}
+
+/*-------------fonts----------------*/
+
+@font-face {
+    font-family: 'Glitory';
+    src: url(content/font/gilroy-regular.ttf);
+}
+
 /*--------------colors--------------*/
 
 .light-gray-1 {
@@ -70,8 +164,8 @@ header {
     background-color: #F6F6F6;
 }
 
-.gray {
-    color: #565656;
+.gray-back {
+    background-color: #575757;
 }
 
 .gray-border {
