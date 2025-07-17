@@ -65,7 +65,7 @@ header {
 }
 
 .description-title {
-    font-family: 'Glitory';
+    font-family: 'Gilroy';
     font-size: 5.55vh;
     font-weight: 400;
     color: #ffffff;
@@ -185,17 +185,67 @@ header {
 }
 
 .intro-feature-content-title {
-    font-family: 'Glitory';
+    font-family: 'Gilroy';
     font-size: 1.48vh;
     font-weight: 700;
     line-height: 1.48vh;
     color: #151716 !important;
 }
 
+/*-------------products--------------*/
+
+.products-container {
+    margin-top: 7.4vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.products-title{
+    font-family: 'Gilroy';
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #151716;
+}
+
+.products {
+    display: flex;
+    margin-top: 2.59vh;
+    justify-content: space-between;
+}
+
+.product {
+    position: relative;
+}
+
+.product > img{
+    margin-right: 0.73vw;
+    max-width: 14.95vw;
+}
+
+.product-name {
+    color: #ffffff;
+    font-family: 'Gilroy';
+    font-size: 1.85vh;
+    font-weight: 700;
+    line-height: 2.3vh;
+    position: absolute;
+    bottom: 2.04vh;
+    left: 1.25vw;
+}
+
+.product-line {
+    position: absolute;
+    width: 11.45vw;
+    height: 1px;
+    background: linear-gradient(to right, #ffffff36, #ffffff0c);
+    bottom: 7.9vh;
+    left: 1.25vw;
+}
+
 /*-------------fonts----------------*/
 
 @font-face {
-    font-family: 'Glitory';
+    font-family: 'Gilroy';
     src: url(content/font/gilroy-regular.ttf);
 }
 
