@@ -119,13 +119,16 @@ header {
     position: relative;
 }
 
-.description-price {
+.price-button {
     font-family: 'TP Sans', sans-serif;
     font-size: 2.22vh;
     line-height: 2.22vh;
     padding: 1.38vh;
     color: #ffffff;
     position: absolute;
+}
+
+.description-price {
     top: 28.43vh;
     left: 6.3vw;
 }
@@ -196,6 +199,7 @@ header {
 
 .products-container {
     margin-top: 7.4vh;
+    margin-bottom: 9.26vh;
     display:flex;
     flex-direction: column;
 }
@@ -242,6 +246,81 @@ header {
     left: 1.25vw;
 }
 
+/*--------------collections--------------*/
+
+.collections {
+    display: flex;
+}
+
+.collections-content, .collections-img {
+    width: 50vw;
+}
+
+.collections-content {
+    margin-left: 18.75vw;
+    margin-right: 3.65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collections-top-text{
+    color: #BEBEBE;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.67vh;
+    line-height: 2.58vh;
+}
+
+.collections-title {
+    margin-top: 6.2vh;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #ffffff !important;
+}
+
+.collections-all {
+    margin-top: 2.4vh;
+    margin-bottom: 3.5vh;
+}
+
+.collections-all > span{
+    margin-left: 0.78vw;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.48vh;
+    line-height: 2.22vh;
+    color: #BEBEBE;
+}
+
+.collections-img > img{
+    max-height: 61.5vh;
+}
+
+.collections-img {
+    position: relative;
+}
+
+.collections-img-title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.66vh;
+    color: #ffffff;
+    line-height: 2.96vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+.collections-img-title {
+    top: 7.04vh;
+    left: 4.11vw;
+}
+
+.collections-button {
+    top: 10.55vh;
+    left: 4.11vw;
+}
 /*-------------fonts----------------*/
 
 @font-face {
