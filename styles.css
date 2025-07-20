@@ -333,6 +333,7 @@ header {
 
 .goods {
     margin-top: 7.4vh;
+    margin-bottom: 7.4vh;
 }
 
 .goods-title {
@@ -399,6 +400,60 @@ header {
     color: #000000;
     font-size: 1.85vh;
     line-height: 1.85vh;
+}
+
+/*------------advantages-----------*/
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages-title {
+    margin-top: 6.48vh;
+    margin-bottom: 5vh;
+    font-family: 'Gilroy';
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+}
+
+.advanatges-items {
+    width: 49.9vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7.4vh;
+}
+
+.advantage {
+    max-width: 14.68vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-upper > img {
+    max-height: 8.33vh;
+}
+
+.advantage-title {
+    margin-top: 2.22vh;
+    margin-bottom: 1vh;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 1.85vh;
+    line-height: 1.85vh;
+    color: #151716;
+    text-align: center;
+}
+
+.advantage-description {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    color: #7B7B7B;
+    text-align: center;
 }
 
 /*-------------fonts----------------*/
