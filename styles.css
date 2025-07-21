@@ -456,6 +456,32 @@ header {
     text-align: center;
 }
 
+/*--------------orange bottom-------------*/
+
+.orange-bottom {
+    position: relative;
+}
+
+.orange-bottom-img {
+    width: 100%;
+}
+
+.orange-bottom-text {
+    width: 62.5vw;
+    padding-top: 3.88vh;
+    padding-bottom: 4.35vh;
+    font-family: 'Gilroy';
+    font-size: 2.59vh;
+    font-weight: 400;
+    line-height: 3.33vh;
+    text-align: center;
+    background-color: #F6761A;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 18.75vw;
+}
+
 /*-------------fonts----------------*/
 
 @font-face {
